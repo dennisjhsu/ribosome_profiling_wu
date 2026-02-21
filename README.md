@@ -6,6 +6,10 @@ Code for processing ribosome profiling (Ribo-seq) data and computing CELP-correc
 
 This pipeline processes raw Ribo-seq FASTQ files through adapter trimming, barcode demultiplexing, UMI handling, rRNA filtering, alignment, and deduplication. Downstream analysis uses [Ribolog](https://github.com/goodarzilab/Ribolog) to compute P-site offsets, codon-level read counts, and CELP (Consistent Excess of Loess Predictions) bias correction. CELP correction is performed separately for each experimental condition.
 
+## Sequencing files
+
+Sequencing files used for this analysis can be downloaded directly from the NCBI Gene Expression Omnibus under accession [#GSE213472](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE213472)
+
 ## Dependencies
 
 ### Command-line tools

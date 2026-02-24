@@ -18,7 +18,7 @@ The secondary peak around 20-21 nt corresponds to ribosomes in an alternative co
 
 ### Periodicity by region
 
-These bar p[lots show the percentage of P-sites in each reading frame, split by transcript region (5'UTR, CDS, 3'UTR), aggregrated across all read lengths. It is generally expected that frame 0 should be the dominant signal in the CDS, but no in the 5'UTR or 3'UTR.
+These bar plots show the percentage of P-sites in each reading frame, split by transcript region (5'UTR, CDS, 3'UTR), aggregrated across all read lengths. It is generally expected that frame 0 should be the dominant signal in the CDS, but no in the 5'UTR or 3'UTR.
 
 ### Periodicity heatmap
 

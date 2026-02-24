@@ -4,9 +4,9 @@ These QC plots pertain to the ribosome profiling data collected in Wu et al., an
 ## Directory contents
 Read length distribution plot: *RPF_longest_CDS_read_dist.pdf*
 
-Periodicity by region: *RPF_period_region.pdf*
+Periodicity by region plot: *RPF_period_region.pdf*
 
-Periodicity heatmap: *RPF_period_region_length.pdf*
+Periodicity heatmap plot: *RPF_period_region_length.pdf*
 
 ## How to interpret the plots
 

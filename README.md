@@ -87,6 +87,8 @@ umi_tools extract \
   --stdout sample_umi.fastq.gz
 ```
 
+Please note that the above barcode pattern was specific to our experimental design, but may need to be modified based on how barcodes are introduced in your own protocols.
+
 ### 5. rRNA filtering
 
 Remove ribosomal RNA reads using STAR aligned to the complete ribosomal repeating unit. Retain unmapped reads (non-rRNA):

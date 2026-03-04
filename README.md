@@ -152,3 +152,16 @@ For each sample, a directory of per-gene text files is generated. Each file cont
 | `observed_count` | Raw P-site read count at this codon |
 | `bias_coefficient` | CELP stalling bias coefficient |
 | `corrected_count` | Bias-corrected read count |
+
+# Interpreting the output
+
+Ribosome profiling measures translation by sequencing ribosome-protected mRNA fragments (RPFs). The number of RPF reads at a given codon reflects ribosome occupancy at that position. However, raw read counts can be inflated at specific codons due to translational stalling (pausing), which does not necessarily reflect higher overall translation of the gene. The CELP method in Ribolog addresses this by identifying codons with reproducibly elevated read counts across samples (stalling sites) and computing a bias coefficient for each codon. Codons with a bias coefficient substantially greater than 1 are candidate stalling sites. The corrected counts redistribute reads more evenly along the transcript, providing a less biased estimate of ribosome occupancy. For more detailed rationale by Ribolog's authors, please refer to the original paper: [Navickas, A., Asgharian, H., Winkler, J., Fish, L., Garcia, K., Markett, D., Dodel, M., Culbertson, B., Miglani, S., Joshi, T. and Yin, K., 2023. An mRNA processing pathway suppresses metastasis by governing translational control from the nucleus. *Nature Cell Biology*, 25(6), pp.892-903.](https://www.nature.com/articles/s41556-023-01141-9).
+
+The per-gene output files can be used as input for a variety of downstream analyses, including:
+
+- **Over-representation and enrichment analyses** on observed read counts across conditions
+- **Subsequence-level comparisons** of ribosome occupancy shifts between conditions
+- **Stalling characterization** using CELP bias coefficients to identify and compare translational pause sites
+
+Ribolog additionally provides modules for translational efficiency (TE) analysis, including library-size normalization, QC, and differential TE testing via logistic regression. For full documentation of these and other downstream modules, refer to the [Ribolog vignette](https://github.com/goodarzilab/Ribolog/blob/master/vignettes/RIBOLOG.pdf).
+

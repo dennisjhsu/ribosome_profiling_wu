@@ -16,11 +16,11 @@ Each histogram corresponds to one sample, and shows the distribution of RPF read
 
 A sharp peak in the 28-30 nt region generally indicates canonical ribosome protected fragments. 
 
-The secondary peak around 20-21 nt corresponds to ribosomes in an alternative conformational ribosome state. (Reference: Lareau, L.F., Hite, D.H., Hogan, G.J. and Brown, P.O., 2014. Distinct stages of the translation elongation cycle revealed by sequencing ribosome-protected mRNA fragments. *elife*, 3, p.e01257. [https://pmc.ncbi.nlm.nih.gov/articles/PMC4052883/](https://pmc.ncbi.nlm.nih.gov/articles/PMC4052883))
+The secondary peak around 20-21 nt corresponds to ribosomes in an alternative conformational ribosome state. Reference: [Lareau, L.F., Hite, D.H., Hogan, G.J. and Brown, P.O., 2014. Distinct stages of the translation elongation cycle revealed by sequencing ribosome-protected mRNA fragments. *elife*, 3, p.e01257.](https://pmc.ncbi.nlm.nih.gov/articles/PMC4052883))
 
 ### Periodicity by region
 
-These bar plots show the percentage of P-sites in each reading frame, split by transcript region (5'UTR, CDS, 3'UTR), aggregrated across all read lengths. It is generally expected that frame 0 should be the dominant signal in the CDS, but no in the 5'UTR or 3'UTR.
+These bar plots show the percentage of P-sites in each reading frame, split by transcript region (5'UTR, CDS, 3'UTR), aggregrated across all read lengths. It is generally expected that frame 0 should be the dominant signal in the CDS, but not in the 5'UTR or 3'UTR.
 
 ### Periodicity heatmap
 

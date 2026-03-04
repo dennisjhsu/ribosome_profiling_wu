@@ -5,9 +5,8 @@
 ## Output: per-gene text files containing codon-level observed counts,
 ## CELP bias coefficients, and corrected counts for each sample.
 
-library(ggplot2)
+library(ggplot2) #Only needed if using QC functions
 library(Ribolog)
-library(dplyr)
 
 # ---- CONFIGURATION ----
 # Update all paths below to match your directory structure

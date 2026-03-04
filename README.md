@@ -163,5 +163,5 @@ The per-gene output files can be used as input for a variety of downstream analy
 - **Subsequence-level comparisons** of ribosome occupancy shifts between conditions
 - **Stalling characterization** using CELP bias coefficients to identify and compare translational pause sites
 
-Ribolog additionally provides modules for translational efficiency (TE) analysis, including library-size normalization, QC, and differential TE testing via logistic regression. For full documentation of these and other downstream modules, refer to the [Ribolog vignette](https://github.com/goodarzilab/Ribolog/blob/master/vignettes/RIBOLOG.pdf).
+Ribolog additionally provides modules for additional analyses that can be used as well. Please refer to the [Ribolog vignette](https://github.com/goodarzilab/Ribolog/blob/master/vignettes/RIBOLOG.pdf) for more details. 
 

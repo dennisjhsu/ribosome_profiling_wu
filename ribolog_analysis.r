@@ -81,7 +81,7 @@ save_celp_per_gene <- function(celp_result, out_dir) {
     transcripts <- names(corrected[[sample_name]])
     for (tr in transcripts) {
       write.table(
-        corrected[[sample_name]][[tr]],
+        corrected[[sample_name]][tr],
         file = file.path(sample_dir, paste0(tr, ".txt")),
         sep = "\t", quote = FALSE, row.names = FALSE
       )

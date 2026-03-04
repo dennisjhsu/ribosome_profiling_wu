@@ -23,7 +23,6 @@ Sequencing files used for this analysis can be downloaded directly from the NCBI
 ### R packages
 - [Ribolog](https://github.com/goodarzilab/Ribolog) (see its README for installation via conda)
 - ggplot2
-- dplyr
 
 ## Reference files
 

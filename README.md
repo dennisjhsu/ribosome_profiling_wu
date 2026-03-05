@@ -26,7 +26,7 @@ Sequencing files used for this analysis can be downloaded directly from the NCBI
 
 ## Reference files
 
-The following reference files are required (not included):
+The following reference files are required and would need to be generated (not included):
 
 | File | Description |
 |------|-------------|
@@ -34,7 +34,7 @@ The following reference files are required (not included):
 | Barcode file | Tab-delimited file mapping sample IDs to barcode sequences |
 | rRNA FASTA | Complete human ribosomal repeating unit ([NCBI U13369](https://www.ncbi.nlm.nih.gov/nuccore/U13369)) |
 | cDNA FASTA | Human cDNA sequences (Ensembl GRCh38), one transcript per gene with longest CDS |
-| Ribolog annotation | `annotation.txt` generated per Ribolog documentation (Ensembl GRCh38) |
+| Ribolog annotation | `annotation.txt` generated per Ribolog documentation (Ensembl GRCh38). Example included. |
 | Longest CDS file | `cDNA_longest_CDS.txt` generated per Ribolog documentation |
 
 The annotation, longest CDS, and cDNA FASTA files are generated using the Python script provided in the Ribolog repository (`Biomart_cDNA_fasta_to_rW_annotation_and_reheadered_longest_CDS_cDNA_fasta_v2.py`) following the instructions in the Ribolog vignette.

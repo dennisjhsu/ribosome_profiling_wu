@@ -11,8 +11,8 @@ library(Ribolog)
 # ---- CONFIGURATION ----
 # Update all paths below to match your directory structure
 
-annotation_file   = "path/to/annotation.txt"
-longest_cds_file  = "path/to/cDNA_longest_CDS.txt"
+annotation_file   = "path/to/annotation.txt" #This is generated using Ribolog. An example is included in this repository but it would differe based on your reference.
+longest_cds_file  = "path/to/cDNA_longest_CDS.txt" #This is also generated using Ribolog
 rpf_bam_folder    = "path/to/rpf_deduplicated_bams/"
 output_base_dir   = "path/to/output/"
 
